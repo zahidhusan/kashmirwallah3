@@ -254,35 +254,49 @@ body {
   flex-direction: column;
   gap: .25rem;
 }
+
 .option-btn {
-  border-radius: .6rem;
-  border: 1px solid rgba(148,163,184,0.55);
-  padding: .28rem .55rem;
-  font-size: .8rem;
+  width: 100%;
   text-align: left;
-  background: rgba(15,23,42,0.9);
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.4rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(148, 163, 184, 0.7);
+  background: transparent;
+  color: #e5e7eb;              /* light text, dark bg pe visible */
+  font-size: 0.95rem;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: .4rem;
-  transition: background .12s ease, border-color .12s ease, transform .05s ease;
+  transition: background 0.15s ease, transform 0.08s ease, border-color 0.15s ease;
 }
+
+.option-btn:hover {
+  border-color: #f59e0b;
+  transform: translateY(-1px);
+}
+
+.option-btn.correct {
+  background: #16a34a;
+  color: #f9fafb;
+  border-color: #16a34a;
+}
+
+.option-btn.wrong {
+  background: #dc2626;
+  color: #f9fafb;
+  border-color: #dc2626;
+}
+
+
+
+
+
+
+
 .option-btn span.key {
   font-weight: 600;
   font-size: .78rem;
 }
-.option-btn:hover {
-  transform: translateY(-1px);
-  border-color: rgba(59,130,246,0.8);
-}
-.option-btn.correct {
-  background: rgba(22,163,74,0.18);
-  border-color: var(--correct);
-}
-.option-btn.wrong {
-  background: rgba(220,38,38,0.16);
-  border-color: var(--wrong);
-}
+
 .explanation {
   font-size: .75rem;
   opacity: .86;
