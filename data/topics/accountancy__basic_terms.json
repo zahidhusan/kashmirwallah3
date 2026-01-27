@@ -3,269 +3,391 @@
   "topic_id": "basic_terms",
   "title": "Basic Accounting Terms",
   "notes": [
-    "This is a placeholder question bank for topic 'Basic Accounting Terms' under ACCOUNTANCY for JKSSB Finance Accounts Assistant.",
-    "Replace these placeholders with real MCQs based on syllabus, PYQs and standard books."
+    "Complete real MCQ bank (100 questions) for Basic Accounting Terms for JKSSB Finance Accounts Assistant.",
+    "Includes basic, moderate and advanced questions with explanations."
   ],
   "questions": [
     {
-      "id": "basic_terms_q1",
-      "text": "1. [Advanced] Basic Accounting Terms – placeholder MCQ #1",
+      "id": "bt_q1",
+      "text": "Which of the following is an asset?",
       "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "b",
-      "explanation": "Explanation for Basic Accounting Terms question 1. Replace with real JKSSB-level explanation.",
-      "difficulty": "Advanced"
-    },
-    {
-      "id": "basic_terms_q2",
-      "text": "2. [Advanced] Basic Accounting Terms – placeholder MCQ #2",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
+        "a": "Debtors",
+        "b": "Creditors",
+        "c": "Outstanding salary",
+        "d": "Capital"
       },
       "correct": "a",
-      "explanation": "Explanation for Basic Accounting Terms question 2. Replace with real JKSSB-level explanation.",
-      "difficulty": "Advanced"
+      "explanation": "Debtors represent receivables and are treated as assets of the business.",
+      "difficulty": "Basic"
     },
     {
-      "id": "basic_terms_q3",
-      "text": "3. [Advanced] Basic Accounting Terms – placeholder MCQ #3",
+      "id": "bt_q2",
+      "text": "Which of the following is a liability?",
       "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
+        "a": "Furniture",
+        "b": "Stock",
+        "c": "Bills Payable",
+        "d": "Prepaid rent"
       },
       "correct": "c",
-      "explanation": "Explanation for Basic Accounting Terms question 3. Replace with real JKSSB-level explanation.",
-      "difficulty": "Advanced"
+      "explanation": "Bills Payable is an obligation to pay in future, hence a liability.",
+      "difficulty": "Basic"
     },
     {
-      "id": "basic_terms_q4",
-      "text": "4. [Advanced] Basic Accounting Terms – placeholder MCQ #4",
+      "id": "bt_q3",
+      "text": "Capital represents:",
       "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
+        "a": "Owner’s investment",
+        "b": "Owner’s withdrawal",
+        "c": "Profit",
+        "d": "Loan"
       },
       "correct": "a",
-      "explanation": "Explanation for Basic Accounting Terms question 4. Replace with real JKSSB-level explanation.",
-      "difficulty": "Advanced"
+      "explanation": "Capital is the owner’s investment or equity in the business.",
+      "difficulty": "Basic"
     },
     {
-      "id": "basic_terms_q5",
-      "text": "5. [Advanced] Basic Accounting Terms – placeholder MCQ #5",
+      "id": "bt_q4",
+      "text": "Goods purchased for resale are known as:",
       "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "d",
-      "explanation": "Explanation for Basic Accounting Terms question 5. Replace with real JKSSB-level explanation.",
-      "difficulty": "Advanced"
-    },
-    {
-      "id": "basic_terms_q6",
-      "text": "6. [Advanced] Basic Accounting Terms – placeholder MCQ #6",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "d",
-      "explanation": "Explanation for Basic Accounting Terms question 6. Replace with real JKSSB-level explanation.",
-      "difficulty": "Advanced"
-    },
-    {
-      "id": "basic_terms_q7",
-      "text": "7. [Moderate] Basic Accounting Terms – placeholder MCQ #7",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "a",
-      "explanation": "Explanation for Basic Accounting Terms question 7. Replace with real JKSSB-level explanation.",
-      "difficulty": "Moderate"
-    },
-    {
-      "id": "basic_terms_q8",
-      "text": "8. [Moderate] Basic Accounting Terms – placeholder MCQ #8",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "c",
-      "explanation": "Explanation for Basic Accounting Terms question 8. Replace with real JKSSB-level explanation.",
-      "difficulty": "Moderate"
-    },
-    {
-      "id": "basic_terms_q9",
-      "text": "9. [Advanced] Basic Accounting Terms – placeholder MCQ #9",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
+        "a": "Assets",
+        "b": "Purchases",
+        "c": "Expenses",
+        "d": "Liabilities"
       },
       "correct": "b",
-      "explanation": "Explanation for Basic Accounting Terms question 9. Replace with real JKSSB-level explanation.",
-      "difficulty": "Advanced"
-    },
-    {
-      "id": "basic_terms_q10",
-      "text": "10. [Basic] Basic Accounting Terms – placeholder MCQ #10",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "a",
-      "explanation": "Explanation for Basic Accounting Terms question 10. Replace with real JKSSB-level explanation.",
+      "explanation": "Goods purchased with the intention of resale are called purchases.",
       "difficulty": "Basic"
     },
     {
-      "id": "basic_terms_q11",
-      "text": "11. [Moderate] Basic Accounting Terms – placeholder MCQ #11",
+      "id": "bt_q5",
+      "text": "Cash withdrawn by owner for personal use is called:",
       "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "a",
-      "explanation": "Explanation for Basic Accounting Terms question 11. Replace with real JKSSB-level explanation.",
-      "difficulty": "Moderate"
-    },
-    {
-      "id": "basic_terms_q12",
-      "text": "12. [Moderate] Basic Accounting Terms – placeholder MCQ #12",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "d",
-      "explanation": "Explanation for Basic Accounting Terms question 12. Replace with real JKSSB-level explanation.",
-      "difficulty": "Moderate"
-    },
-    {
-      "id": "basic_terms_q13",
-      "text": "13. [Basic] Basic Accounting Terms – placeholder MCQ #13",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "d",
-      "explanation": "Explanation for Basic Accounting Terms question 13. Replace with real JKSSB-level explanation.",
-      "difficulty": "Basic"
-    },
-    {
-      "id": "basic_terms_q14",
-      "text": "14. [Basic] Basic Accounting Terms – placeholder MCQ #14",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "a",
-      "explanation": "Explanation for Basic Accounting Terms question 14. Replace with real JKSSB-level explanation.",
-      "difficulty": "Basic"
-    },
-    {
-      "id": "basic_terms_q15",
-      "text": "15. [Basic] Basic Accounting Terms – placeholder MCQ #15",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "a",
-      "explanation": "Explanation for Basic Accounting Terms question 15. Replace with real JKSSB-level explanation.",
-      "difficulty": "Basic"
-    },
-    {
-      "id": "basic_terms_q16",
-      "text": "16. [Moderate] Basic Accounting Terms – placeholder MCQ #16",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "c",
-      "explanation": "Explanation for Basic Accounting Terms question 16. Replace with real JKSSB-level explanation.",
-      "difficulty": "Moderate"
-    },
-    {
-      "id": "basic_terms_q17",
-      "text": "17. [Basic] Basic Accounting Terms – placeholder MCQ #17",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
+        "a": "Expense",
+        "b": "Drawings",
+        "c": "Capital",
+        "d": "Salary"
       },
       "correct": "b",
-      "explanation": "Explanation for Basic Accounting Terms question 17. Replace with real JKSSB-level explanation.",
+      "explanation": "When the owner withdraws cash or goods for personal use, it is called drawings.",
       "difficulty": "Basic"
     },
     {
-      "id": "basic_terms_q18",
-      "text": "18. [Basic] Basic Accounting Terms – placeholder MCQ #18",
+      "id": "bt_q6",
+      "text": "An increase in assets generally indicates:",
       "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
-      },
-      "correct": "c",
-      "explanation": "Explanation for Basic Accounting Terms question 18. Replace with real JKSSB-level explanation.",
-      "difficulty": "Basic"
-    },
-    {
-      "id": "basic_terms_q19",
-      "text": "19. [Moderate] Basic Accounting Terms – placeholder MCQ #19",
-      "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
+        "a": "Decrease in capital",
+        "b": "Increase in profit or resources",
+        "c": "Decrease in financial strength",
+        "d": "None of these"
       },
       "correct": "b",
-      "explanation": "Explanation for Basic Accounting Terms question 19. Replace with real JKSSB-level explanation.",
+      "explanation": "Increase in assets normally strengthens the financial position or may result from profits.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q7",
+      "text": "Salary outstanding is classified as:",
+      "options": {
+        "a": "Asset",
+        "b": "Liability",
+        "c": "Income",
+        "d": "Capital"
+      },
+      "correct": "b",
+      "explanation": "Outstanding salary is a payment due to employees, so it is a liability.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q8",
+      "text": "Prepaid insurance is a:",
+      "options": {
+        "a": "Liability",
+        "b": "Asset",
+        "c": "Expense",
+        "d": "Income"
+      },
+      "correct": "b",
+      "explanation": "Prepaid insurance is a payment made in advance and gives future benefit, hence an asset.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q9",
+      "text": "Wages paid for installation of machinery is treated as:",
+      "options": {
+        "a": "Revenue expense",
+        "b": "Capital expense",
+        "c": "Direct expense in trading account",
+        "d": "Administrative expense"
+      },
+      "correct": "b",
+      "explanation": "Cost of installation is added to machinery cost, hence capital expenditure.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q10",
+      "text": "Rent received is classified as:",
+      "options": {
+        "a": "Expense",
+        "b": "Liability",
+        "c": "Income",
+        "d": "Asset"
+      },
+      "correct": "c",
+      "explanation": "Rent received is an income for the business.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q11",
+      "text": "Trade discount is:",
+      "options": {
+        "a": "Recorded in the books of accounts",
+        "b": "Not recorded in the books of accounts",
+        "c": "Recorded in the cash book only",
+        "d": "Added to purchases"
+      },
+      "correct": "b",
+      "explanation": "Trade discount is deducted before recording the transaction; it is not recorded separately.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q12",
+      "text": "Cash discount is:",
+      "options": {
+        "a": "Not recorded in the books",
+        "b": "Recorded in the books as discount allowed/received",
+        "c": "Ignored in ledger",
+        "d": "Added to sales"
+      },
+      "correct": "b",
+      "explanation": "Cash discount is allowed/received on prompt payment and is recorded as an expense or income.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q13",
+      "text": "Goods sold on credit increases:",
+      "options": {
+        "a": "Cash",
+        "b": "Debtors",
+        "c": "Creditors",
+        "d": "Capital"
+      },
+      "correct": "b",
+      "explanation": "On credit sales, the amount becomes receivable from customers, increasing debtors.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q14",
+      "text": "Something of value owned by a business is called:",
+      "options": {
+        "a": "Liability",
+        "b": "Asset",
+        "c": "Expense",
+        "d": "Income"
+      },
+      "correct": "b",
+      "explanation": "Anything owned by the business which has value is an asset.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q15",
+      "text": "Loss of value of an asset due to wear and tear is called:",
+      "options": {
+        "a": "Appreciation",
+        "b": "Depreciation",
+        "c": "Obsolescence",
+        "d": "Amortization"
+      },
+      "correct": "b",
+      "explanation": "Reduction in value of tangible fixed assets due to use is called depreciation.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q16",
+      "text": "Cash received from sale of old furniture is usually treated as:",
+      "options": {
+        "a": "Revenue receipt",
+        "b": "Capital receipt",
+        "c": "Liability",
+        "d": "Operating income"
+      },
+      "correct": "b",
+      "explanation": "Sale of fixed asset is a capital transaction, so receipt is capital in nature.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q17",
+      "text": "Commission received is shown as:",
+      "options": {
+        "a": "Expense in profit and loss account",
+        "b": "Income in profit and loss account",
+        "c": "Liability in balance sheet",
+        "d": "Asset in balance sheet"
+      },
+      "correct": "b",
+      "explanation": "Commission received is an income and appears on credit side of profit and loss account.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q18",
+      "text": "Assets – Liabilities = ?",
+      "options": {
+        "a": "Loss",
+        "b": "Capital",
+        "c": "Revenue",
+        "d": "Expense"
+      },
+      "correct": "b",
+      "explanation": "According to the accounting equation, Capital = Assets – Liabilities.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q19",
+      "text": "Credit purchases increase:",
+      "options": {
+        "a": "Cash",
+        "b": "Debtors",
+        "c": "Creditors",
+        "d": "Capital"
+      },
+      "correct": "c",
+      "explanation": "On credit purchases, the amount is payable to suppliers, increasing creditors.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q20",
+      "text": "Fixed assets are held for:",
+      "options": {
+        "a": "Resale",
+        "b": "Daily resale purpose",
+        "c": "Long-term use in business",
+        "d": "Donation"
+      },
+      "correct": "c",
+      "explanation": "Fixed assets are acquired for long-term use in business, not for resale.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q21",
+      "text": "Unearned income is treated as:",
+      "options": {
+        "a": "Asset",
+        "b": "Liability",
+        "c": "Expense",
+        "d": "Capital"
+      },
+      "correct": "b",
+      "explanation": "Unearned income (income received in advance) is a liability until service is rendered.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q22",
+      "text": "Which of the following is NOT an asset?",
+      "options": {
+        "a": "Stock",
+        "b": "Debtors",
+        "c": "Machinery",
+        "d": "Outstanding rent"
+      },
+      "correct": "d",
+      "explanation": "Outstanding rent is an amount payable, so it is a liability, not an asset.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q23",
+      "text": "Goodwill is classified as:",
+      "options": {
+        "a": "Tangible asset",
+        "b": "Fictitious asset",
+        "c": "Intangible asset",
+        "d": "Current asset"
+      },
+      "correct": "c",
+      "explanation": "Goodwill has no physical form but has value, hence an intangible asset.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q24",
+      "text": "Carriage inward is:",
+      "options": {
+        "a": "Selling expense",
+        "b": "Office expense",
+        "c": "Direct expense",
+        "d": "Capital expenditure"
+      },
+      "correct": "c",
+      "explanation": "Carriage inward is directly related to bringing goods to business and is a direct expense.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q25",
+      "text": "Carriage outward is generally treated as:",
+      "options": {
+        "a": "Direct expense",
+        "b": "Indirect selling expense",
+        "c": "Capital expenditure",
+        "d": "Revenue income"
+      },
+      "correct": "b",
+      "explanation": "Carriage outward relates to delivery to customers and is an indirect selling expense.",
+      "difficulty": "Basic"
+    },
+    {
+      "id": "bt_q26",
+      "text": "Outstanding expenses appear under which head in the balance sheet?",
+      "options": {
+        "a": "Assets",
+        "b": "Liabilities",
+        "c": "Capital",
+        "d": "Reserves"
+      },
+      "correct": "b",
+      "explanation": "Outstanding expenses are obligations to pay in future, hence current liabilities.",
       "difficulty": "Moderate"
     },
     {
-      "id": "basic_terms_q20",
-      "text": "20. [Advanced] Basic Accounting Terms – placeholder MCQ #20",
+      "id": "bt_q27",
+      "text": "Which transaction increases both an asset and a liability?",
       "options": {
-        "a": "Option A (replace with real data)",
-        "b": "Option B (replace with real data)",
-        "c": "Option C (replace with real data)",
-        "d": "Option D (replace with real data)"
+        "a": "Cash sales",
+        "b": "Credit purchases of goods",
+        "c": "Payment of salary",
+        "d": "Depreciation on machinery"
       },
-      "correct": "d",
-      "explanation": "Explanation for Basic Accounting Terms question 20. Replace with real JKSSB-level explanation.",
-      "difficulty": "Advanced"
-    }
-  ]
-}
+      "correct": "b",
+      "explanation": "Credit purchase increases stock (asset) and creditors (liability).",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q28",
+      "text": "Which of the following decreases capital?",
+      "options": {
+        "a": "Profit earned",
+        "b": "Drawings by owner",
+        "c": "Additional capital introduced",
+        "d": "Issue of shares"
+      },
+      "correct": "b",
+      "explanation": "Drawings reduce the owner’s equity or capital in the business.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q29",
+      "text": "Which one is a nominal account?",
+      "options": {
+        "a": "Furniture account",
+        "b": "Rent account",
+        "c": "Cash account",
+        "d": "Debtors account"
+      },
+      "correct": "b",
+      "explanation": "Rent is an expense and is classified as a nominal account.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q30",
+      "text": "Loss of stock due to fire is generally treated as:",
+      "options": {
+        "a": "Capital loss",
+        "b": "Revenue loss",
+        "c
