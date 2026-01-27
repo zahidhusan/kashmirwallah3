@@ -390,4 +390,922 @@
       "options": {
         "a": "Capital loss",
         "b": "Revenue loss",
-        "c
+        "c": "Indirect income",
+        "d": "Asset"
+      },
+      "correct": "b",
+      "explanation": "Loss of stock is a loss from normal business operations, so it is a revenue loss.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q31",
+      "text": "Consignment stock is recorded in the books of:",
+      "options": {
+        "a": "Consignee",
+        "b": "Consignor",
+        "c": "Both consignee and consignor",
+        "d": "Neither consignee nor consignor"
+      },
+      "correct": "b",
+      "explanation": "Consignment stock legally belongs to consignor and appears in his books.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q32",
+      "text": "Capital + Liabilities = ?",
+      "options": {
+        "a": "Assets",
+        "b": "Profit",
+        "c": "Expenses",
+        "d": "Revenue"
+      },
+      "correct": "a",
+      "explanation": "According to accounting equation: Assets = Capital + Liabilities.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q33",
+      "text": "Bank overdraft is shown as:",
+      "options": {
+        "a": "Asset",
+        "b": "Liability",
+        "c": "Expense",
+        "d": "Income"
+      },
+      "correct": "b",
+      "explanation": "Bank overdraft is an amount payable to bank, hence a liability.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q34",
+      "text": "Furniture used in business is:",
+      "options": {
+        "a": "Fixed asset",
+        "b": "Current asset",
+        "c": "Expense",
+        "d": "Liability"
+      },
+      "correct": "a",
+      "explanation": "Furniture used in business operations is a fixed asset.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q35",
+      "text": "Which of the following is a real account?",
+      "options": {
+        "a": "Building account",
+        "b": "Salary account",
+        "c": "Rent received account",
+        "d": "Capital account"
+      },
+      "correct": "a",
+      "explanation": "Building account relates to property and is a real account.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q36",
+      "text": "Which of the following is a fictitious asset?",
+      "options": {
+        "a": "Goodwill",
+        "b": "Patent",
+        "c": "Preliminary expenses",
+        "d": "Trademark"
+      },
+      "correct": "c",
+      "explanation": "Preliminary expenses are written off over years and are shown as fictitious assets.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q37",
+      "text": "Which of the following is NOT a current asset?",
+      "options": {
+        "a": "Stock",
+        "b": "Debtors",
+        "c": "Land",
+        "d": "Cash at bank"
+      },
+      "correct": "c",
+      "explanation": "Land is a fixed asset, not a current asset.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q38",
+      "text": "Sales return (return inward) reduces:",
+      "options": {
+        "a": "Debtors",
+        "b": "Creditors",
+        "c": "Cash",
+        "d": "Capital"
+      },
+      "correct": "a",
+      "explanation": "Sales return reduces the amount receivable from debtors.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q39",
+      "text": "Purchase return (return outward) reduces:",
+      "options": {
+        "a": "Debtors",
+        "b": "Creditors",
+        "c": "Cash",
+        "d": "Capital"
+      },
+      "correct": "b",
+      "explanation": "Purchase return reduces the amount payable to creditors.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q40",
+      "text": "Which account follows the rule 'Debit what comes in, credit what goes out'?",
+      "options": {
+        "a": "Personal account",
+        "b": "Nominal account",
+        "c": "Real account",
+        "d": "Capital account"
+      },
+      "correct": "c",
+      "explanation": "Real accounts follow the rule 'Debit what comes in, credit what goes out'.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q41",
+      "text": "Discount received from creditors is classified as:",
+      "options": {
+        "a": "Expense",
+        "b": "Income",
+        "c": "Asset",
+        "d": "Liability"
+      },
+      "correct": "b",
+      "explanation": "Discount received is a gain or income for the business.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q42",
+      "text": "Discount allowed to debtors is treated as:",
+      "options": {
+        "a": "Expense",
+        "b": "Income",
+        "c": "Liability",
+        "d": "Asset"
+      },
+      "correct": "a",
+      "explanation": "Discount allowed is a loss/expense to the business.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q43",
+      "text": "Unearned income (income received in advance) is:",
+      "options": {
+        "a": "Income",
+        "b": "Liability",
+        "c": "Expense",
+        "d": "Asset"
+      },
+      "correct": "b",
+      "explanation": "Unearned income is an obligation to provide service/goods, so it is a liability.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q44",
+      "text": "Capital expenditure generally results in:",
+      "options": {
+        "a": "Short-term benefit",
+        "b": "Long-term benefit",
+        "c": "No benefit",
+        "d": "Loss"
+      },
+      "correct": "b",
+      "explanation": "Capital expenditure gives benefit for more than one accounting period.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q45",
+      "text": "Revenue expenditure is usually:",
+      "options": {
+        "a": "Non-recurring in nature",
+        "b": "Recurring in nature",
+        "c": "Capital in nature",
+        "d": "Not charged to profit and loss account"
+      },
+      "correct": "b",
+      "explanation": "Revenue expenditure occurs regularly and is charged to profit and loss account.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q46",
+      "text": "Trade payables refer to:",
+      "options": {
+        "a": "Debtors",
+        "b": "Creditors",
+        "c": "Bank balance",
+        "d": "Bills of exchange received"
+      },
+      "correct": "b",
+      "explanation": "Trade payables are creditors to whom the firm owes money for credit purchases.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q47",
+      "text": "Trade receivables refer to:",
+      "options": {
+        "a": "Creditors",
+        "b": "Debtors",
+        "c": "Bank overdraft",
+        "d": "Bills payable"
+      },
+      "correct": "b",
+      "explanation": "Trade receivables include debtors who owe money to the business.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q48",
+      "text": "Which one of the following is an intangible asset?",
+      "options": {
+        "a": "Building",
+        "b": "Patent",
+        "c": "Furniture",
+        "d": "Stock"
+      },
+      "correct": "b",
+      "explanation": "Patent has no physical existence but provides legal rights, so it is intangible.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q49",
+      "text": "Commission paid is classified as:",
+      "options": {
+        "a": "Income",
+        "b": "Expense",
+        "c": "Liability",
+        "d": "Asset"
+      },
+      "correct": "b",
+      "explanation": "Commission paid is an expense for the business.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q50",
+      "text": "Goodwill generally arises due to:",
+      "options": {
+        "a": "Normal business operations",
+        "b": "Special reputation and earning capacity",
+        "c": "Loans from bank",
+        "d": "Government grant"
+      },
+      "correct": "b",
+      "explanation": "Goodwill arises from reputation, loyal customers and higher earning capacity.",
+      "difficulty": "Moderate"
+    },
+    {
+      "id": "bt_q51",
+      "text": "Which of the following is NOT included in Cost of Goods Sold (COGS)?",
+      "options": {
+        "a": "Opening stock",
+        "b": "Carriage inward",
+        "c": "Direct wages",
+        "d": "Carriage outward"
+      },
+      "correct": "d",
+      "explanation": "Carriage outward is a selling expense and not part of cost of goods sold.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q52",
+      "text": "Which is NOT a feature of capital receipts?",
+      "options": {
+        "a": "Non-recurring in nature",
+        "b": "Provides long-term benefit",
+        "c": "Shown in the balance sheet",
+        "d": "Incurred for day-to-day operations"
+      },
+      "correct": "d",
+      "explanation": "Day-to-day operational receipts are revenue receipts, not capital receipts.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q53",
+      "text": "Deferred revenue expenditure is:",
+      "options": {
+        "a": "Written off fully in the same year",
+        "b": "Written off over a number of years",
+        "c": "Not written off at all",
+        "d": "Shown as a liability"
+      },
+      "correct": "b",
+      "explanation": "Deferred revenue expenditure is spread over several years due to its long-term benefit.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q54",
+      "text": "Which of the following is NOT an example of a fictitious asset?",
+      "options": {
+        "a": "Preliminary expenses",
+        "b": "Discount on issue of shares",
+        "c": "Goodwill",
+        "d": "Underwriting commission (to be written off)"
+      },
+      "correct": "c",
+      "explanation": "Goodwill is an intangible asset, not a fictitious asset.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q55",
+      "text": "Which of the following increases both capital and assets?",
+      "options": {
+        "a": "Profit earned",
+        "b": "Drawings made",
+        "c": "Payment of expenses",
+        "d": "Purchase of goods on credit"
+      },
+      "correct": "a",
+      "explanation": "Profit increases the capital and usually increases assets like cash or debtors.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q56",
+      "text": "Loss on sale of machinery is classified as:",
+      "options": {
+        "a": "Revenue loss",
+        "b": "Capital loss",
+        "c": "Expense on sales",
+        "d": "Liability"
+      },
+      "correct": "b",
+      "explanation": "Loss arising on sale of fixed assets is treated as capital loss.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q57",
+      "text": "Which of the following equations always holds true?",
+      "options": {
+        "a": "Assets = Capital – Liabilities",
+        "b": "Capital = Assets – Liabilities",
+        "c": "Liabilities = Assets + Capital",
+        "d": "Assets = Expenses – Income"
+      },
+      "correct": "b",
+      "explanation": "The fundamental accounting equation is Capital = Assets – Liabilities.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q58",
+      "text": "Return inward appears in which account?",
+      "options": {
+        "a": "Trading account",
+        "b": "Profit and loss account",
+        "c": "Balance sheet",
+        "d": "Cash book"
+      },
+      "correct": "a",
+      "explanation": "Return inward reduces sales and appears on the debit side of the trading account.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q59",
+      "text": "Return outward is first recorded in:",
+      "options": {
+        "a": "Sales return book",
+        "b": "Purchases return book",
+        "c": "Cash book",
+        "d": "Journal proper"
+      },
+      "correct": "b",
+      "explanation": "Return outward (purchase return) is recorded in the purchases return book.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q60",
+      "text": "Goodwill in the balance sheet is shown under:",
+      "options": {
+        "a": "Fixed assets",
+        "b": "Current assets",
+        "c": "Investments",
+        "d": "Current liabilities"
+      },
+      "correct": "a",
+      "explanation": "Goodwill is a type of fixed intangible asset.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q61",
+      "text": "Which of the following is NOT an adjusting item?",
+      "options": {
+        "a": "Outstanding salary",
+        "b": "Prepaid insurance",
+        "c": "Depreciation",
+        "d": "Trial balance difference"
+      },
+      "correct": "d",
+      "explanation": "Trial balance difference is an error issue, not a standard adjustment item.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q62",
+      "text": "A liability which is payable after a long period is called:",
+      "options": {
+        "a": "Current liability",
+        "b": "Long-term liability",
+        "c": "Fixed liability",
+        "d": "Quick liability"
+      },
+      "correct": "b",
+      "explanation": "A liability payable after more than a year is generally referred to as long-term liability.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q63",
+      "text": "Expenditure incurred to maintain fixed assets in working condition is:",
+      "options": {
+        "a": "Capital expenditure",
+        "b": "Revenue expenditure",
+        "c": "Deferred revenue expenditure",
+        "d": "Intangible expenditure"
+      },
+      "correct": "b",
+      "explanation": "Maintenance expenditure does not increase the asset’s capacity, so it is revenue in nature.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q64",
+      "text": "Expenditure incurred to increase the earning capacity or life of a fixed asset is:",
+      "options": {
+        "a": "Capital expenditure",
+        "b": "Revenue expenditure",
+        "c": "Deferred revenue expenditure",
+        "d": "Operating expenditure"
+      },
+      "correct": "a",
+      "explanation": "Such expenditure brings long-term benefit and is capital in nature.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q65",
+      "text": "Who is called a creditor?",
+      "options": {
+        "a": "A person who owes money",
+        "b": "A person to whom money is owed",
+        "c": "A customer",
+        "d": "An employee"
+      },
+      "correct": "b",
+      "explanation": "A creditor is the person to whom we owe money.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q66",
+      "text": "Who is called a debtor?",
+      "options": {
+        "a": "A person who owes money to the business",
+        "b": "A person to whom the business owes money",
+        "c": "The owner",
+        "d": "A lender"
+      },
+      "correct": "a",
+      "explanation": "Debtor is the person who has to pay money to the business.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q67",
+      "text": "Commission earned but not yet received is termed as:",
+      "options": {
+        "a": "Accrued income",
+        "b": "Outstanding income",
+        "c": "Prepaid income",
+        "d": "Unearned income"
+      },
+      "correct": "a",
+      "explanation": "Commission earned but not received is accrued income and treated as an asset.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q68",
+      "text": "Which account is debited when bad debts are written off?",
+      "options": {
+        "a": "Bad debts account",
+        "b": "Debtors account",
+        "c": "Sales account",
+        "d": "Cash account"
+      },
+      "correct": "a",
+      "explanation": "Bad debts are transferred to bad debts account as an expense.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q69",
+      "text": "If a liability increases and there is no change in capital, which must happen?",
+      "options": {
+        "a": "Assets must decrease",
+        "b": "Assets must increase",
+        "c": "Expenses must decrease",
+        "d": "Income must decrease"
+      },
+      "correct": "b",
+      "explanation": "To keep the equation balanced, increase in liability without change in capital means increase in assets.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q70",
+      "text": "Which of the following is NOT a real account?",
+      "options": {
+        "a": "Machinery account",
+        "b": "Building account",
+        "c": "Rent account",
+        "d": "Furniture account"
+      },
+      "correct": "c",
+      "explanation": "Rent account is a nominal account, not real.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q71",
+      "text": "Prepaid rent at the end of the year is shown as:",
+      "options": {
+        "a": "Expense in profit and loss account",
+        "b": "Income in profit and loss account",
+        "c": "Asset in balance sheet",
+        "d": "Liability in balance sheet"
+      },
+      "correct": "c",
+      "explanation": "Prepaid rent represents benefit of future period, so it is shown as an asset.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q72",
+      "text": "Accrued salary is treated as:",
+      "options": {
+        "a": "Asset",
+        "b": "Liability",
+        "c": "Income",
+        "d": "Capital"
+      },
+      "correct": "b",
+      "explanation": "Accrued salary (salary due but not paid) is a liability.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q73",
+      "text": "Pre-received commission is an example of:",
+      "options": {
+        "a": "Expense",
+        "b": "Liability",
+        "c": "Income earned",
+        "d": "Asset"
+      },
+      "correct": "b",
+      "explanation": "Commission received in advance is a liability until it is earned.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q74",
+      "text": "Which of the following is an example of capital profit?",
+      "options": {
+        "a": "Profit on sale of fixed assets",
+        "b": "Profit on sale of goods",
+        "c": "Discount received from creditor",
+        "d": "Rent received"
+      },
+      "correct": "a",
+      "explanation": "Profit from sale of fixed assets is capital profit.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q75",
+      "text": "Goods given as charity are treated as:",
+      "options": {
+        "a": "Sales",
+        "b": "Purchase return",
+        "c": "Expense",
+        "d": "Income"
+      },
+      "correct": "c",
+      "explanation": "Goods distributed as charity are treated as an expense.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q76",
+      "text": "Goods given as free samples are debited to:",
+      "options": {
+        "a": "Advertisement expense account",
+        "b": "Charity account",
+        "c": "Drawings account",
+        "d": "Sales account"
+      },
+      "correct": "a",
+      "explanation": "Goods given as samples to promote sales are treated as advertisement expense.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q77",
+      "text": "Advance tax paid is shown as:",
+      "options": {
+        "a": "Current liability",
+        "b": "Current asset",
+        "c": "Revenue expense",
+        "d": "Capital expenditure"
+      },
+      "correct": "b",
+      "explanation": "Advance tax paid is an asset until adjusted against tax liability.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q78",
+      "text": "If liabilities decrease and assets remain same, capital will:",
+      "options": {
+        "a": "Decrease",
+        "b": "Increase",
+        "c": "Remain unchanged",
+        "d": "Become negative"
+      },
+      "correct": "b",
+      "explanation": "Decrease in liabilities with same assets means net worth (capital) increases.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q79",
+      "text": "Which item increases owner’s equity?",
+      "options": {
+        "a": "Business loss",
+        "b": "Drawings",
+        "c": "Additional capital introduced",
+        "d": "Payment of salaries"
+      },
+      "correct": "c",
+      "explanation": "When owner introduces more capital, owner’s equity increases.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q80",
+      "text": "Goods destroyed by fire are treated as:",
+      "options": {
+        "a": "Revenue loss",
+        "b": "Capital expenditure",
+        "c": "Capital loss",
+        "d": "Liability"
+      },
+      "correct": "a",
+      "explanation": "Loss of goods is usually revenue loss as it relates to trading stock.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q81",
+      "text": "Which is an example of a contra-asset account?",
+      "options": {
+        "a": "Provision for doubtful debts",
+        "b": "Cash account",
+        "c": "Debtors account",
+        "d": "Creditors account"
+      },
+      "correct": "a",
+      "explanation": "Provision for doubtful debts reduces the value of debtors and is a contra-asset.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q82",
+      "text": "Accrued income is shown as:",
+      "options": {
+        "a": "Liability",
+        "b": "Asset",
+        "c": "Expense",
+        "d": "Capital"
+      },
+      "correct": "b",
+      "explanation": "Accrued income is income earned but not received, treated as asset.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q83",
+      "text": "Which of the following is NOT a liability?",
+      "options": {
+        "a": "Outstanding wages",
+        "b": "Bills payable",
+        "c": "Creditors",
+        "d": "Prepaid telephone bills"
+      },
+      "correct": "d",
+      "explanation": "Prepaid telephone bill is an asset, not a liability.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q84",
+      "text": "Goods withdrawn by owner for personal use are:",
+      "options": {
+        "a": "Capital",
+        "b": "Purchases",
+        "c": "Drawings",
+        "d": "Liability"
+      },
+      "correct": "c",
+      "explanation": "Goods taken by owner for personal use are drawings and reduce capital.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q85",
+      "text": "Bank charges debited by bank are treated as:",
+      "options": {
+        "a": "Asset",
+        "b": "Expense",
+        "c": "Liability",
+        "d": "Income"
+      },
+      "correct": "b",
+      "explanation": "Bank charges are an expense to the business.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q86",
+      "text": "Double entry system means each transaction affects:",
+      "options": {
+        "a": "Only one account",
+        "b": "At least one debit and one credit account",
+        "c": "Only real accounts",
+        "d": "Only nominal accounts"
+      },
+      "correct": "b",
+      "explanation": "Under double entry, every transaction has a dual aspect and affects at least two accounts.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q87",
+      "text": "Which of the following is NOT an asset?",
+      "options": {
+        "a": "Prepaid rent",
+        "b": "Outstanding commission",
+        "c": "Debtors",
+        "d": "Building"
+      },
+      "correct": "b",
+      "explanation": "Outstanding commission (commission payable) is a liability, not an asset.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q88",
+      "text": "Income received in advance is classified as:",
+      "options": {
+        "a": "Asset",
+        "b": "Liability",
+        "c": "Capital",
+        "d": "Reserve"
+      },
+      "correct": "b",
+      "explanation": "Income received in advance is a liability until the related service is rendered.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q89",
+      "text": "Which of the following is a capital expenditure?",
+      "options": {
+        "a": "Salary of staff",
+        "b": "Electricity bill",
+        "c": "Repair of machinery (ordinary)",
+        "d": "Installation charges of new machine"
+      },
+      "correct": "d",
+      "explanation": "Installation charges are added to asset cost and are capital in nature.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q90",
+      "text": "Goods purchased for cash will:",
+      "options": {
+        "a": "Increase purchases and decrease cash",
+        "b": "Decrease purchases and increase cash",
+        "c": "Increase cash and increase capital",
+        "d": "Decrease creditors and increase cash"
+      },
+      "correct": "a",
+      "explanation": "Cash purchases result in an increase in purchases and decrease in cash.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q91",
+      "text": "Goods sold on credit will:",
+      "options": {
+        "a": "Increase cash and sales",
+        "b": "Increase debtors and sales",
+        "c": "Decrease stock and creditors",
+        "d": "Increase creditors and sales"
+      },
+      "correct": "b",
+      "explanation": "On credit sale, sales (income) and debtors (asset) increase.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q92",
+      "text": "Loss of asset by theft is treated as:",
+      "options": {
+        "a": "Revenue loss",
+        "b": "Capital expenditure",
+        "c": "Capital loss",
+        "d": "Liability"
+      },
+      "correct": "c",
+      "explanation": "Loss by theft of a fixed asset is capital loss.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q93",
+      "text": "Unearned revenue is shown under:",
+      "options": {
+        "a": "Assets",
+        "b": "Reserves",
+        "c": "Current liabilities",
+        "d": "Capital"
+      },
+      "correct": "c",
+      "explanation": "Unearned revenue is a current liability as it is payable in form of service/goods.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q94",
+      "text": "Which of the following is NOT a generally used category of asset?",
+      "options": {
+        "a": "Tangible asset",
+        "b": "Intangible asset",
+        "c": "Liquid asset",
+        "d": "Fictitious asset"
+      },
+      "correct": "d",
+      "explanation": "Fictitious assets are not real assets; they are deferred revenue expenditures.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q95",
+      "text": "Accrued commission is shown as:",
+      "options": {
+        "a": "Expense in profit and loss account",
+        "b": "Liability in balance sheet",
+        "c": "Asset in balance sheet",
+        "d": "Reserve"
+      },
+      "correct": "c",
+      "explanation": "Accrued commission is income earned but not received, so it is an asset.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q96",
+      "text": "A person who gives loan to the business is:",
+      "options": {
+        "a": "Creditor",
+        "b": "Debtor",
+        "c": "Lender",
+        "d": "Both a and c"
+      },
+      "correct": "d",
+      "explanation": "A lender to the business is also its creditor.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q97",
+      "text": "Which of the following is a real account?",
+      "options": {
+        "a": "Furniture account",
+        "b": "Rent expense account",
+        "c": "Commission income account",
+        "d": "Salary account"
+      },
+      "correct": "a",
+      "explanation": "Furniture relates to a tangible asset and is a real account.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q98",
+      "text": "Profit earned during the year will:",
+      "options": {
+        "a": "Increase assets only",
+        "b": "Increase capital",
+        "c": "Decrease capital",
+        "d": "Decrease assets"
+      },
+      "correct": "b",
+      "explanation": "Profit increases the owner’s capital or equity.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q99",
+      "text": "Bad debts written off will reduce:",
+      "options": {
+        "a": "Cash",
+        "b": "Debtors",
+        "c": "Capital only",
+        "d": "Creditors"
+      },
+      "correct": "b",
+      "explanation": "Bad debts reduce the amount receivable from debtors.",
+      "difficulty": "Advanced"
+    },
+    {
+      "id": "bt_q100",
+      "text": "Loss in business at the end of the year is:",
+      "options": {
+        "a": "Added to capital",
+        "b": "Deducted from capital",
+        "c": "Shown as liability only",
+        "d": "Shown as asset"
+      },
+      "correct": "b",
+      "explanation": "Loss reduces the owner’s capital and is deducted from capital in balance sheet.",
+      "difficulty": "Advanced"
+    }
+  ]
+}
