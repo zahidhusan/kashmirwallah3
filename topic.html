@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kwallah · Topic Question Bank</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-page="topic" class="theme-kashmir">
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="brand">
+        <a href="index.html" style="text-decoration:none; color:inherit; display:flex; align-items:center; gap:.75rem;">
+          <div class="brand-logo">KW</div>
+          <div class="brand-text">
+            <div class="brand-text-title">Kwallah</div>
+            <div class="brand-text-sub">JKSSB FA · Topic-wise Question Bank</div>
+          </div>
+        </a>
+      </div>
+      <div class="header-right">
+        <div class="pill">Step 4 · Practice MCQs</div>
+        <div class="theme-switcher">
+          <label for="theme-select">Theme</label>
+          <select id="theme-select">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="kashmir">Kashmir Green</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <nav class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <a href="subjects.html?exam=jkssb_fa">JKSSB FA</a>
+        <span>›</span>
+        <span id="bc-subject">Section</span>
+        <span>›</span>
+        <span id="bc-topic">Topic</span>
+      </nav>
+
+      <section class="card">
+        <div class="card-inner">
+          <div id="topic-title" class="card-title">Topic</div>
+          <p id="topic-notes" style="font-size:.86rem; opacity:.9;">
+            Loading topic notes…
+          </p>
+          <div class="search-row">
+            <input id="search-input" class="search-input" placeholder="Search within this topic's questions (e.g. 'journal entry', 'asset', 'inflation')">
+            <div class="search-badge">Type to filter MCQs instantly</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div id="qa-container" class="qa-container">
+          <div class="q-card">Loading questions…</div>
+        </div>
+      </section>
+
+      <div class="footer-note">
+        Click on an option to check yourself. Correct option turns <strong>green</strong>, wrong attempt turns <strong>red</strong>. You can try again as many times as you like – this is pure practice mode. Later we can add timed mock tests using this same structure.
+      </div>
+    </main>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

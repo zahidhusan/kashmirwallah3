@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kwallah · Syllabus Components</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-page="subjects" class="theme-kashmir">
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="brand">
+        <a href="index.html" style="text-decoration:none; color:inherit; display:flex; align-items:center; gap:.75rem;">
+          <div class="brand-logo">KW</div>
+          <div class="brand-text">
+            <div class="brand-text-title">Kwallah</div>
+            <div class="brand-text-sub">JKSSB Finance Accounts Assistant</div>
+          </div>
+        </a>
+      </div>
+      <div class="header-right">
+        <div class="pill">Step 2 · Choose Syllabus Section</div>
+        <div class="theme-switcher">
+          <label for="theme-select">Theme</label>
+          <select id="theme-select">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="kashmir">Kashmir Green</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="card">
+        <div class="card-inner">
+          <div id="page-title" class="card-title">Syllabus Components · Marks-wise</div>
+          <p style="font-size:.86rem; opacity:.9;">
+            These 8 sections are exactly as per the official JKSSB Finance Accounts Assistant syllabus. Click on any section to see topic-wise breakdown.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="grid" id="subject-grid"></div>
+      </section>
+    </main>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>
