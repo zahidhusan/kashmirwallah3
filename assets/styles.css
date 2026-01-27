@@ -295,6 +295,56 @@ body {
   font-size: .7rem;
   opacity: .8;
 }
+
+.topic-stats {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;  /* right side */
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.topic-stats .badge-correct,
+.topic-stats .badge-wrong {
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.7);
+}
+
+.topic-stats .badge-correct {
+  color: #bbf7d0;             /* light green text */
+  border-color: #22c55e;
+}
+
+.topic-stats .badge-wrong {
+  color: #fecaca;             /* light red text */
+  border-color: #ef4444;
+}
+
+.topic-stats .stats-reset-btn {
+  padding: 0.15rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.8);
+  background: transparent;
+  color: #e5e7eb;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.topic-stats .stats-reset-btn:hover {
+  border-color: #f97316;
+}
+
+
+
+
+
+
+
+
+
+
+
 .table-wrapper {
   margin-top: .6rem;
   border-radius: .75rem;
