@@ -444,3 +444,86 @@ body.theme-light .option-btn .key {
     justify-content: flex-start;
   }
 }
+
+
+
+
+/* ============================================================
+   EXTRA MOBILE TUNING (SMARTPHONE FRIENDLY)
+   ============================================================ */
+@media (max-width: 640px) {
+
+  /* Overall base text thoda bada */
+  body {
+    font-size: 15px;
+  }
+
+  /* Container full width, kam padding */
+  .main-shell,
+  .page-shell,
+  #app-root {
+    max-width: 100%;
+    padding: 0.7rem 0.55rem 1.8rem;
+  }
+
+  /* Header card height kam, text comfortable */
+  .page-header-card {
+    margin: 0 0 0.9rem 0;
+    padding: 0.75rem 0.85rem;
+    border-radius: 0.85rem;
+  }
+
+  .page-header-card h1,
+  #page-title {
+    font-size: 1.02rem;
+  }
+
+  .page-header-card .page-desc {
+    font-size: 0.82rem;
+  }
+
+  /* Tiles & question cards */
+  .tile,
+  .q-card {
+    padding: 0.75rem 0.75rem;
+    border-radius: 0.85rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .tile-title {
+    font-size: 0.98rem;
+  }
+
+  .tile-meta {
+    font-size: 0.8rem;
+  }
+
+  /* Question text & options */
+  .q-text {
+    font-size: 0.94rem;
+  }
+
+  .option-btn {
+    font-size: 0.9rem;
+    padding: 0.55rem 0.65rem;
+  }
+
+  .options {
+    gap: 0.45rem;
+  }
+
+  /* Question header stacking for narrow width */
+  .q-header-line {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  /* Counter bar left align for small screens */
+  .topic-stats {
+    justify-content: flex-start;
+    font-size: 0.8rem;
+  }
+}
+
+
