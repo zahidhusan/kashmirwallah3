@@ -1,14 +1,30 @@
 /* ============================================================
-   BASE LAYOUT + TYPOGRAPHY
+   GLOBAL BASE & TYPOGRAPHY
    ============================================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #0f172a;
+  background: #020617;
   color: #e5e7eb;
 }
 
-/* Container wrappers */
+/* Base links – no ugly blue underlines */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* Generic wrapper for pages */
 .main-shell,
 .page-shell,
 #app-root {
@@ -22,74 +38,182 @@ body {
    THEMES
    ============================================================ */
 
-/* DARK THEME */
 body.theme-dark {
-  background: radial-gradient(circle at top, #0f172a 0, #020617 45%, #000 100%);
+  background: radial-gradient(circle at top, #020617 0, #000 50%, #020617 100%);
   color: #e5e7eb;
 }
 
-/* KASHMIR THEME */
 body.theme-kashmir {
-  background: radial-gradient(circle at top, #0f172a 0, #1f2937 40%, #020617 100%);
+  background:
+    radial-gradient(circle at 0 0, rgba(56, 189, 248, 0.45), transparent 50%),
+    radial-gradient(circle at 100% 0, rgba(251, 191, 36, 0.35), transparent 55%),
+    radial-gradient(circle at 50% 100%, rgba(56, 189, 248, 0.25), transparent 60%),
+    #020617;
   color: #e5e7eb;
 }
 
-/* LIGHT THEME */
 body.theme-light {
-  background: #f3f4f6;
+  background: #e5e7eb;
   color: #0f172a;
 }
 
 
 /* ============================================================
-   TILE / CARD DESIGN (Used everywhere)
+   PAGE HEADERS & TOP TEXT
    ============================================================ */
+
+.page-header {
+  margin-bottom: 1rem;
+}
+
+.page-header small {
+  display: block;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  opacity: 0.7;
+  margin-bottom: 0.25rem;
+}
+
+.page-header h1,
+#page-title {
+  font-size: 1.35rem;
+  margin: 0;
+  text-align: center;
+  font-weight: 650;
+}
+
+.page-subtitle {
+  margin-top: 0.35rem;
+  font-size: 0.86rem;
+  opacity: 0.8;
+  text-align: center;
+}
+
+/* Old plain “KW Kwallah …” lines ko readable banane ke liye */
+.header-text,
+.top-info {
+  font-size: 0.82rem;
+  opacity: 0.85;
+  margin-bottom: 0.25rem;
+}
+
+/* Theme selector row */
+.theme-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0.4rem 0 0.5rem;
+  font-size: 0.8rem;
+}
+
+.theme-row select {
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.8);
+  background: rgba(15, 23, 42, 0.7);
+  color: #e5e7eb;
+}
+body.theme-light .theme-row select {
+  background: #f9fafb;
+  color: #0f172a;
+}
+
+
+/* ============================================================
+   TILE / CARD DESIGN (Subjects & Topics)
+   ============================================================ */
+
+a.tile {
+  display: block;
+}
 
 .tile,
 .q-card {
-  background: rgba(15, 23, 42, 0.96);
-  border: 1px solid rgba(148, 163, 184, 0.4);
+  background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.15), transparent 55%),
+              radial-gradient(circle at bottom right, rgba(251, 191, 36, 0.12), transparent 55%),
+              rgba(15, 23, 42, 0.96);
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 0.9rem 1rem;
   margin-bottom: 0.9rem;
-  transition: transform 0.12s ease, border-color 0.15s ease;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  box-shadow: 0 18px 35px rgba(15, 23, 42, 0.85);
+  transition: transform 0.13s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+/* Hover lift */
+.tile:hover {
+  transform: translateY(-3px);
+  border-color: rgba(251, 191, 36, 0.9);
+  box-shadow: 0 22px 40px rgba(15, 23, 42, 0.95);
 }
 
 /* Light theme override */
 body.theme-light .tile,
 body.theme-light .q-card {
   background: #ffffff;
-  color: #111827;
+  color: #0f172a;
+  box-shadow: 0 14px 26px rgba(15, 23, 42, 0.12);
 }
 
-/* Hover effect for tiles */
-.tile:hover {
-  border-color: #f59e0b;
-  transform: translateY(-2px);
-}
-
-/* Badges */
+/* Badge at top (marks / topic number) */
 .badge {
-  display: inline-block;
-  padding: 0.25rem 0.6rem;
-  margin-bottom: 0.5rem;
-  border-radius: 0.75rem;
-  font-size: 0.75rem;
-  background: rgba(249, 115, 22, 0.15);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid rgba(251, 191, 36, 0.8);
+  color: #fbbf24;
+  background: rgba(15, 23, 42, 0.85);
+}
+
+/* Light theme badge */
+body.theme-light .badge {
+  background: #fef3c7;
+  color: #92400e;
+  border-color: #f59e0b;
+}
+
+/* Tile title + meta */
+.tile-title {
+  margin-top: 0.45rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.tile-meta {
+  font-size: 0.84rem;
+  opacity: 0.78;
+  margin-top: 0.15rem;
+}
+
+/* When link hovered, highlight only title text */
+a.tile:hover .tile-title {
   color: #fbbf24;
 }
 
-/* Tile title */
-.tile-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 0.25rem;
+
+/* ============================================================
+   GRID LAYOUTS
+   ============================================================ */
+
+#exam-grid,
+#subject-grid,
+#topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.9rem;
 }
 
-/* Tile meta (sub text) */
-.tile-meta {
-  font-size: 0.85rem;
-  opacity: 0.75;
+/* Topic grid ka text centred thoda clean lagta hai */
+#topic-grid .tile-title,
+#topic-grid .tile-meta {
+  text-align: left;
 }
 
 
@@ -97,6 +221,11 @@ body.theme-light .q-card {
    QUESTION CARD STRUCTURE
    ============================================================ */
 
+.q-card {
+  margin-top: 0.7rem;
+}
+
+/* Question line (number + text + difficulty) */
 .q-header-line {
   display: flex;
   justify-content: space-between;
@@ -106,27 +235,24 @@ body.theme-light .q-card {
 }
 
 .q-text {
-  font-size: 1rem;
+  font-size: 0.98rem;
   font-weight: 500;
 }
 
-/* Difficulty tag */
 .q-difficulty {
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  opacity: 0.75;
+  opacity: 0.82;
   color: #fbbf24;
 }
-
-/* Light theme override */
 body.theme-light .q-difficulty {
   color: #92400e;
 }
 
 
 /* ============================================================
-   OPTIONS (PREMIUM STYLE)
+   PREMIUM OPTIONS DESIGN
    ============================================================ */
 
 .options {
@@ -135,7 +261,7 @@ body.theme-light .q-difficulty {
   gap: 0.55rem;
 }
 
-/* Option buttons */
+/* Base option */
 .option-btn {
   display: flex;
   align-items: flex-start;
@@ -143,25 +269,30 @@ body.theme-light .q-difficulty {
   width: 100%;
   padding: 0.65rem 0.75rem;
   border-radius: 0.75rem;
-  border: 1px solid rgba(148, 163, 184, 0.7);
-  background: rgba(15, 23, 42, 0.35);
-  color: #f8fafc;
+  border: 1px solid rgba(148, 163, 184, 0.75);
+  background: rgba(15, 23, 42, 0.45);
+  color: #f9fafb;
   font-size: 0.96rem;
   cursor: pointer;
-  transition: all 0.15s ease;
+  outline: none;
+  transition:
+    background 0.15s ease,
+    transform 0.07s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+/* Light theme options */
+body.theme-light .option-btn {
+  background: #f9fafb;
+  color: #111827;
 }
 
 /* Hover */
 .option-btn:hover {
   border-color: #f59e0b;
-  box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.35);
+  box-shadow: 0 0 0 1px rgba(249, 115, 22, 0.3);
   transform: translateY(-1px);
-}
-
-/* Light theme override */
-body.theme-light .option-btn {
-  background: #f9fafb;
-  color: #111827;
 }
 
 /* Option label (A/B/C/D) */
@@ -170,7 +301,7 @@ body.theme-light .option-btn {
   min-width: 1.35rem;
   height: 1.35rem;
   border-radius: 999px;
-  border: 1px solid rgba(234, 179, 8, 0.7);
+  border: 1px solid rgba(234, 179, 8, 0.8);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -179,13 +310,19 @@ body.theme-light .option-btn {
   color: #fbbf24;
 }
 
-/* Light theme key styling */
+/* Light theme key */
 body.theme-light .option-btn .key {
   color: #b45309;
-  border-color: rgba(180, 83, 9, 0.7);
+  border-color: rgba(180, 83, 9, 0.85);
 }
 
-/* Correct option */
+/* Option text */
+.option-btn span:last-child {
+  flex: 1;
+  line-height: 1.35;
+}
+
+/* Correct / wrong state */
 .option-btn.correct {
   background: #16a34a !important;
   color: #f9fafb !important;
@@ -193,7 +330,6 @@ body.theme-light .option-btn .key {
   box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.55);
 }
 
-/* Wrong option */
 .option-btn.wrong {
   background: #dc2626 !important;
   color: #f9fafb !important;
@@ -211,8 +347,8 @@ body.theme-light .option-btn .key {
   font-size: 0.9rem;
   margin-top: 0.6rem;
   padding-top: 0.4rem;
-  border-top: 1px dashed rgba(148, 163, 184, 0.3);
-  opacity: 0.85;
+  border-top: 1px dashed rgba(148, 163, 184, 0.35);
+  opacity: 0.86;
 }
 
 .q-card.show-explanation .explanation {
@@ -236,7 +372,7 @@ body.theme-light .option-btn .key {
 
 .topic-stats .badge-correct,
 .topic-stats .badge-wrong {
-  padding: 0.22rem 0.65rem;
+  padding: 0.22rem 0.75rem;
   border-radius: 999px;
   border: 1px solid rgba(148, 163, 184, 0.9);
 }
@@ -252,7 +388,7 @@ body.theme-light .option-btn .key {
 }
 
 .topic-stats .stats-reset-btn {
-  padding: 0.22rem 0.75rem;
+  padding: 0.22rem 0.85rem;
   border-radius: 999px;
   font-size: 0.78rem;
   border: 1px solid rgba(148, 163, 184, 0.9);
@@ -260,51 +396,48 @@ body.theme-light .option-btn .key {
   color: inherit;
   cursor: pointer;
 }
-
 .topic-stats .stats-reset-btn:hover {
   border-color: #f97316;
 }
 
 
 /* ============================================================
-   RESPONSIVENESS
+   RESPONSIVE TWEAKS
    ============================================================ */
 
-#exam-grid,
-#subject-grid,
-#topic-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 0.9rem;
-}
-
-/* Mobile specific */
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .main-shell,
   .page-shell,
   #app-root {
     padding: 0.8rem 0.6rem 2rem;
   }
 
+  .page-header h1,
+  #page-title {
+    font-size: 1.18rem;
+  }
+}
+
+@media (max-width: 640px) {
   .tile,
   .q-card {
-    padding: 0.75rem 0.75rem;
-    border-radius: 0.85rem;
-  }
-
-  .q-text {
-    font-size: 0.95rem;
-  }
-
-  .option-btn {
-    font-size: 0.92rem;
-    padding: 0.55rem 0.65rem;
+    padding: 0.8rem 0.8rem;
+    border-radius: 0.9rem;
   }
 
   .q-header-line {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.25rem;
+  }
+
+  .q-text {
+    font-size: 0.94rem;
+  }
+
+  .option-btn {
+    font-size: 0.92rem;
+    padding: 0.55rem 0.65rem;
   }
 
   .topic-stats {
