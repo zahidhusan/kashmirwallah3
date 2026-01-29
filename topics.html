@@ -1,50 +1,66 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Kwallah · Topics</title>
+  <title>Kwallah | JKSSB FA – Topics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
-<body data-page="topics" class="theme-kashmir">
-  <div class="app-shell">
-    <header class="app-header">
+<body class="theme-kashmir" data-page="topics">
+  <div id="app-root" class="main-shell">
+
+    <!-- Shared header -->
+    <header class="site-header">
       <div class="brand">
-        <a href="index.html" style="text-decoration:none; color:inherit; display:flex; align-items:center; gap:.75rem;">
-          <div class="brand-logo">KW</div>
-          <div class="brand-text">
-            <div class="brand-text-title">Kwallah</div>
-            <div class="brand-text-sub">Topics mapped from JKSSB FAA syllabus</div>
-          </div>
-        </a>
-      </div>
-      <div class="header-right">
-        <div class="pill">Step 3 · Choose Topic</div>
-        <div class="theme-switcher">
-          <label for="theme-select">Theme</label>
-          <select id="theme-select">
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-            <option value="kashmir">Kashmir Green</option>
-          </select>
+        <div class="brand-logo">KW</div>
+        <div class="brand-text">
+          <div class="brand-name">Kwallah</div>
+          <div class="brand-tagline">JK exams • Practice better</div>
         </div>
+      </div>
+
+      <nav class="top-nav">
+        <a href="index.html#exams-section" class="nav-link">Exams</a>
+        <a href="index.html#tests-section" class="nav-link nav-disabled">Tests</a>
+        <a href="index.html#notes-section" class="nav-link nav-disabled">Notes</a>
+        <a href="index.html#contact-section" class="nav-link nav-disabled">Contact</a>
+      </nav>
+
+      <div class="site-controls">
+        <input
+          type="text"
+          class="nav-search"
+          placeholder="Search topics (coming soon)"
+          disabled
+        />
+        <label class="theme-label">
+          Theme
+          <select id="theme-select">
+            <option value="kashmir">Kashmir Green</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+          </select>
+        </label>
       </div>
     </header>
 
     <main>
-      <section class="card">
-        <div class="card-inner">
-          <div id="page-title" class="card-title">Topics</div>
-          <p style="font-size:.86rem; opacity:.9;">
-            Each tile below is one topic from the syllabus. Click to open its MCQ question bank (currently placeholder questions which you will replace with real ones).
-          </p>
-        </div>
+      <!-- Hero: section name + marks -->
+      <section class="exam-hero">
+        <h1 id="topics-page-title">Accountancy &amp; Book Keeping – Topics</h1>
+        <p id="topics-page-subline">
+          Each card below is one topic from the syllabus. Tap to open its MCQ bank.
+        </p>
       </section>
-      <section>
-        <div class="grid" id="topic-grid"></div>
+
+      <!-- Topic grid -->
+      <section class="exam-grid-section">
+        <h2 class="section-heading">Topics in this section</h2>
+        <div id="topic-grid"></div>
       </section>
     </main>
   </div>
+
   <script src="assets/app.js"></script>
 </body>
 </html>
