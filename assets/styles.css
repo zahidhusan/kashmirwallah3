@@ -15,7 +15,16 @@ body {
   color: #e5e7eb;
 }
 
-/* Base links – no ugly blue underlines */
+/* generic app container */
+.main-shell,
+.page-shell,
+#app-root {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1rem 1rem 2.2rem;
+}
+
+/* Links – no bright blue underlines */
 a {
   color: inherit;
   text-decoration: none;
@@ -23,16 +32,6 @@ a {
 a:hover {
   text-decoration: none;
 }
-
-/* Generic wrapper for pages */
-.main-shell,
-.page-shell,
-#app-root {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 1rem 1rem 2.5rem;
-}
-
 
 /* ============================================================
    THEMES
@@ -44,11 +43,7 @@ body.theme-dark {
 }
 
 body.theme-kashmir {
-  background:
-    radial-gradient(circle at 0 0, rgba(56, 189, 248, 0.45), transparent 50%),
-    radial-gradient(circle at 100% 0, rgba(251, 191, 36, 0.35), transparent 55%),
-    radial-gradient(circle at 50% 100%, rgba(56, 189, 248, 0.25), transparent 60%),
-    #020617;
+  background: radial-gradient(circle at top, #0b1120 0, #020617 55%);
   color: #e5e7eb;
 }
 
@@ -57,72 +52,98 @@ body.theme-light {
   color: #0f172a;
 }
 
-
 /* ============================================================
-   PAGE HEADERS & TOP TEXT
+   TOP BAR: LOGO + TAGLINE + THEME
    ============================================================ */
 
-.page-header {
-  margin-bottom: 1rem;
-}
-
-.page-header small {
-  display: block;
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  opacity: 0.7;
-  margin-bottom: 0.25rem;
-}
-
-.page-header h1,
-#page-title {
-  font-size: 1.35rem;
-  margin: 0;
-  text-align: center;
-  font-weight: 650;
-}
-
-.page-subtitle {
-  margin-top: 0.35rem;
-  font-size: 0.86rem;
-  opacity: 0.8;
-  text-align: center;
-}
-
-/* Old plain “KW Kwallah …” lines ko readable banane ke liye */
-.header-text,
-.top-info {
-  font-size: 0.82rem;
-  opacity: 0.85;
-  margin-bottom: 0.25rem;
-}
-
-/* Theme selector row */
-.theme-row {
+.site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0.75rem;
-  margin: 0.4rem 0 0.5rem;
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.brand-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background: radial-gradient(circle at 30% 30%, #22c55e, #15803d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #e5f6ff;
+  box-shadow: 0 10px 24px rgba(22, 163, 74, 0.7);
+}
+
+.brand-name {
+  font-size: 1.06rem;
+  font-weight: 650;
+}
+
+.brand-tagline {
+  font-size: 0.8rem;
+  opacity: 0.78;
+}
+
+.site-controls {
   font-size: 0.8rem;
 }
 
-.theme-row select {
-  padding: 0.25rem 0.55rem;
+.theme-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.theme-label select {
+  padding: 0.22rem 0.6rem;
   border-radius: 999px;
-  border: 1px solid rgba(148, 163, 184, 0.8);
-  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(148, 163, 184, 0.85);
+  background: rgba(15, 23, 42, 0.9);
   color: #e5e7eb;
 }
-body.theme-light .theme-row select {
+
+body.theme-light .theme-label select {
   background: #f9fafb;
   color: #0f172a;
 }
 
+/* ============================================================
+   HOME HERO SECTION
+   ============================================================ */
+
+.exam-hero {
+  margin-bottom: 1.3rem;
+}
+
+.exam-hero h1 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.35rem;
+  font-weight: 650;
+}
+
+.exam-hero p {
+  margin: 0.15rem 0;
+  font-size: 0.86rem;
+  opacity: 0.85;
+}
+
+.exam-hero-sub {
+  font-size: 0.82rem;
+  opacity: 0.78;
+}
 
 /* ============================================================
-   TILE / CARD DESIGN (Subjects & Topics)
+   TILE / CARD DESIGN (EXAMS, SUBJECTS, TOPICS, QUESTIONS)
    ============================================================ */
 
 a.tile {
@@ -131,77 +152,70 @@ a.tile {
 
 .tile,
 .q-card {
-  background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.15), transparent 55%),
-              radial-gradient(circle at bottom right, rgba(251, 191, 36, 0.12), transparent 55%),
-              rgba(15, 23, 42, 0.96);
-  border-radius: 1rem;
+  background: #020617;
+  border: 1px solid #1f2937;
+  border-radius: 0.95rem;
   padding: 0.9rem 1rem;
   margin-bottom: 0.9rem;
-  border: 1px solid rgba(148, 163, 184, 0.4);
-  box-shadow: 0 18px 35px rgba(15, 23, 42, 0.85);
+  box-shadow: 0 18px 35px rgba(15, 23, 42, 0.95);
   transition: transform 0.13s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
-/* Hover lift */
-.tile:hover {
-  transform: translateY(-3px);
-  border-color: rgba(251, 191, 36, 0.9);
-  box-shadow: 0 22px 40px rgba(15, 23, 42, 0.95);
-}
-
-/* Light theme override */
+/* Light theme overrides */
 body.theme-light .tile,
 body.theme-light .q-card {
   background: #ffffff;
   color: #0f172a;
+  border-color: rgba(148, 163, 184, 0.4);
   box-shadow: 0 14px 26px rgba(15, 23, 42, 0.12);
 }
 
-/* Badge at top (marks / topic number) */
+/* Hover effect for tiles */
+.tile:hover {
+  transform: translateY(-3px);
+  border-color: #6366f1;
+  box-shadow: 0 22px 42px rgba(15, 23, 42, 1);
+}
+
+/* Badge (marks / topic number) */
 .badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.2rem 0.7rem;
+  padding: 0.18rem 0.7rem;
   border-radius: 999px;
   font-size: 0.76rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  border: 1px solid rgba(251, 191, 36, 0.8);
-  color: #fbbf24;
-  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(99, 102, 241, 0.9);
+  background: rgba(15, 23, 42, 0.95);
+  color: #a5b4fc;
 }
 
-/* Light theme badge */
 body.theme-light .badge {
-  background: #fef3c7;
-  color: #92400e;
-  border-color: #f59e0b;
+  background: #eef2ff;
+  color: #4338ca;
+  border-color: #4f46e5;
 }
 
-/* Tile title + meta */
+/* Tile title / meta */
 .tile-title {
-  margin-top: 0.45rem;
-  font-size: 1.05rem;
+  margin-top: 0.4rem;
+  font-size: 1.02rem;
   font-weight: 600;
 }
 
 .tile-meta {
+  margin-top: 0.2rem;
   font-size: 0.84rem;
-  opacity: 0.78;
-  margin-top: 0.15rem;
+  opacity: 0.8;
 }
 
-/* When link hovered, highlight only title text */
 a.tile:hover .tile-title {
-  color: #fbbf24;
+  color: #c4b5fd;
 }
 
-
-/* ============================================================
-   GRID LAYOUTS
-   ============================================================ */
-
+/* Grids for subjects/topics */
 #exam-grid,
 #subject-grid,
 #topic-grid {
@@ -210,27 +224,20 @@ a.tile:hover .tile-title {
   gap: 0.9rem;
 }
 
-/* Topic grid ka text centred thoda clean lagta hai */
-#topic-grid .tile-title,
-#topic-grid .tile-meta {
-  text-align: left;
-}
-
-
 /* ============================================================
-   QUESTION CARD STRUCTURE
+   QUESTION CARDS (TOPIC PAGE)
    ============================================================ */
 
 .q-card {
   margin-top: 0.7rem;
 }
 
-/* Question line (number + text + difficulty) */
+/* Question number + text + difficulty */
 .q-header-line {
   display: flex;
   justify-content: space-between;
-  gap: 0.75rem;
   align-items: baseline;
+  gap: 0.75rem;
   margin-bottom: 0.7rem;
 }
 
@@ -239,6 +246,7 @@ a.tile:hover .tile-title {
   font-weight: 500;
 }
 
+/* difficulty badge (BASIC / MODERATE / ADVANCED) */
 .q-difficulty {
   font-size: 0.78rem;
   text-transform: uppercase;
@@ -246,13 +254,13 @@ a.tile:hover .tile-title {
   opacity: 0.82;
   color: #fbbf24;
 }
+
 body.theme-light .q-difficulty {
   color: #92400e;
 }
 
-
 /* ============================================================
-   PREMIUM OPTIONS DESIGN
+   PREMIUM OPTIONS STYLING
    ============================================================ */
 
 .options {
@@ -261,7 +269,6 @@ body.theme-light .q-difficulty {
   gap: 0.55rem;
 }
 
-/* Base option */
 .option-btn {
   display: flex;
   align-items: flex-start;
@@ -269,7 +276,7 @@ body.theme-light .q-difficulty {
   width: 100%;
   padding: 0.65rem 0.75rem;
   border-radius: 0.75rem;
-  border: 1px solid rgba(148, 163, 184, 0.75);
+  border: 1px solid rgba(148, 163, 184, 0.8);
   background: rgba(15, 23, 42, 0.45);
   color: #f9fafb;
   font-size: 0.96rem;
@@ -282,7 +289,6 @@ body.theme-light .q-difficulty {
     box-shadow 0.15s ease;
 }
 
-/* Light theme options */
 body.theme-light .option-btn {
   background: #f9fafb;
   color: #111827;
@@ -295,13 +301,13 @@ body.theme-light .option-btn {
   transform: translateY(-1px);
 }
 
-/* Option label (A/B/C/D) */
+/* A/B/C/D badge */
 .option-btn .key {
   margin-top: 2px;
   min-width: 1.35rem;
   height: 1.35rem;
   border-radius: 999px;
-  border: 1px solid rgba(234, 179, 8, 0.8);
+  border: 1px solid rgba(234, 179, 8, 0.85);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -310,19 +316,18 @@ body.theme-light .option-btn {
   color: #fbbf24;
 }
 
-/* Light theme key */
 body.theme-light .option-btn .key {
   color: #b45309;
-  border-color: rgba(180, 83, 9, 0.85);
+  border-color: rgba(180, 83, 9, 0.9);
 }
 
-/* Option text */
+/* option text */
 .option-btn span:last-child {
   flex: 1;
   line-height: 1.35;
 }
 
-/* Correct / wrong state */
+/* Correct / wrong */
 .option-btn.correct {
   background: #16a34a !important;
   color: #f9fafb !important;
@@ -337,9 +342,8 @@ body.theme-light .option-btn .key {
   box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.55);
 }
 
-
 /* ============================================================
-   EXPLANATION AREA
+   EXPLANATION + TOPIC STATS
    ============================================================ */
 
 .explanation {
@@ -355,11 +359,7 @@ body.theme-light .option-btn .key {
   display: block;
 }
 
-
-/* ============================================================
-   TOPIC STATS (COUNTER + REATTEMPT)
-   ============================================================ */
-
+/* Counter bar */
 .topic-stats {
   display: flex;
   flex-wrap: wrap;
@@ -396,33 +396,43 @@ body.theme-light .option-btn .key {
   color: inherit;
   cursor: pointer;
 }
+
 .topic-stats .stats-reset-btn:hover {
   border-color: #f97316;
 }
 
-
 /* ============================================================
-   RESPONSIVE TWEAKS
+   RESPONSIVE (MOBILE)
    ============================================================ */
 
 @media (max-width: 768px) {
   .main-shell,
-  .page-shell,
   #app-root {
-    padding: 0.8rem 0.6rem 2rem;
+    max-width: 100%;
+    padding: 0.9rem 0.6rem 2rem;
   }
 
-  .page-header h1,
-  #page-title {
-    font-size: 1.18rem;
+  .exam-hero h1 {
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 640px) {
+  .site-header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .main-shell,
+  #app-root {
+    padding: 0.8rem 0.55rem 1.8rem;
+  }
+
   .tile,
   .q-card {
     padding: 0.8rem 0.8rem;
     border-radius: 0.9rem;
+    margin-bottom: 0.8rem;
   }
 
   .q-header-line {
@@ -431,74 +441,6 @@ body.theme-light .option-btn .key {
     gap: 0.25rem;
   }
 
-  .q-text {
-    font-size: 0.94rem;
-  }
-
-  .option-btn {
-    font-size: 0.92rem;
-    padding: 0.55rem 0.65rem;
-  }
-
-  .topic-stats {
-    justify-content: flex-start;
-  }
-}
-
-
-
-
-/* ============================================================
-   EXTRA MOBILE TUNING (SMARTPHONE FRIENDLY)
-   ============================================================ */
-@media (max-width: 640px) {
-
-  /* Overall base text thoda bada */
-  body {
-    font-size: 15px;
-  }
-
-  /* Container full width, kam padding */
-  .main-shell,
-  .page-shell,
-  #app-root {
-    max-width: 100%;
-    padding: 0.7rem 0.55rem 1.8rem;
-  }
-
-  /* Header card height kam, text comfortable */
-  .page-header-card {
-    margin: 0 0 0.9rem 0;
-    padding: 0.75rem 0.85rem;
-    border-radius: 0.85rem;
-  }
-
-  .page-header-card h1,
-  #page-title {
-    font-size: 1.02rem;
-  }
-
-  .page-header-card .page-desc {
-    font-size: 0.82rem;
-  }
-
-  /* Tiles & question cards */
-  .tile,
-  .q-card {
-    padding: 0.75rem 0.75rem;
-    border-radius: 0.85rem;
-    margin-bottom: 0.7rem;
-  }
-
-  .tile-title {
-    font-size: 0.98rem;
-  }
-
-  .tile-meta {
-    font-size: 0.8rem;
-  }
-
-  /* Question text & options */
   .q-text {
     font-size: 0.94rem;
   }
@@ -508,22 +450,8 @@ body.theme-light .option-btn .key {
     padding: 0.55rem 0.65rem;
   }
 
-  .options {
-    gap: 0.45rem;
-  }
-
-  /* Question header stacking for narrow width */
-  .q-header-line {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.25rem;
-  }
-
-  /* Counter bar left align for small screens */
   .topic-stats {
     justify-content: flex-start;
     font-size: 0.8rem;
   }
 }
-
-
