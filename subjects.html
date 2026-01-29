@@ -1,50 +1,66 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Kwallah · Syllabus Components</title>
+  <title>Kwallah | JKSSB FA – Sections</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
-<body data-page="subjects" class="theme-kashmir">
-  <div class="app-shell">
-    <header class="app-header">
+<body class="theme-kashmir" data-page="subjects">
+  <div id="app-root" class="main-shell">
+
+    <!-- Shared header: logo + nav + search + theme -->
+    <header class="site-header">
       <div class="brand">
-        <a href="index.html" style="text-decoration:none; color:inherit; display:flex; align-items:center; gap:.75rem;">
-          <div class="brand-logo">KW</div>
-          <div class="brand-text">
-            <div class="brand-text-title">Kwallah</div>
-            <div class="brand-text-sub">JKSSB Finance Accounts Assistant</div>
-          </div>
-        </a>
-      </div>
-      <div class="header-right">
-        <div class="pill">Step 2 · Choose Syllabus Section</div>
-        <div class="theme-switcher">
-          <label for="theme-select">Theme</label>
-          <select id="theme-select">
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-            <option value="kashmir">Kashmir Green</option>
-          </select>
+        <div class="brand-logo">KW</div>
+        <div class="brand-text">
+          <div class="brand-name">Kwallah</div>
+          <div class="brand-tagline">JK exams • Practice better</div>
         </div>
+      </div>
+
+      <nav class="top-nav">
+        <a href="index.html#exams-section" class="nav-link">Exams</a>
+        <a href="index.html#tests-section" class="nav-link nav-disabled">Tests</a>
+        <a href="index.html#notes-section" class="nav-link nav-disabled">Notes</a>
+        <a href="index.html#contact-section" class="nav-link nav-disabled">Contact</a>
+      </nav>
+
+      <div class="site-controls">
+        <input
+          type="text"
+          class="nav-search"
+          placeholder="Search exams (coming soon)"
+          disabled
+        />
+        <label class="theme-label">
+          Theme
+          <select id="theme-select">
+            <option value="kashmir">Kashmir Green</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+          </select>
+        </label>
       </div>
     </header>
 
     <main>
-      <section class="card">
-        <div class="card-inner">
-          <div id="page-title" class="card-title">Syllabus Components · Marks-wise</div>
-          <p style="font-size:.86rem; opacity:.9;">
-            These 8 sections are exactly as per the official JKSSB Finance Accounts Assistant syllabus. Click on any section to see topic-wise breakdown.
-          </p>
-        </div>
+      <!-- Small, clear intro -->
+      <section class="exam-hero">
+        <h1 id="subject-page-title">JKSSB FA – Sections</h1>
+        <p id="subject-page-subline">
+          Marks-wise syllabus sections for JKSSB Finance Accounts Assistant.
+        </p>
       </section>
-      <section>
-        <div class="grid" id="subject-grid"></div>
+
+      <!-- Grid of sections (GK, Accountancy, English, etc) -->
+      <section class="exam-grid-section">
+        <h2 class="section-heading">Syllabus sections</h2>
+        <div id="subject-grid"></div>
       </section>
     </main>
   </div>
+
   <script src="assets/app.js"></script>
 </body>
 </html>
