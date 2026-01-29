@@ -1,71 +1,99 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Kwallah · Topic Question Bank</title>
+  <title>Kwallah | JKSSB FA – Topic MCQs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
-<body data-page="topic" class="theme-kashmir">
-  <div class="app-shell">
-    <header class="app-header">
+<body class="theme-kashmir" data-page="topic">
+  <div id="app-root" class="main-shell">
+
+    <!-- TOP HEADER: same across site -->
+    <header class="site-header">
       <div class="brand">
-        <a href="index.html" style="text-decoration:none; color:inherit; display:flex; align-items:center; gap:.75rem;">
-          <div class="brand-logo">KW</div>
-          <div class="brand-text">
-            <div class="brand-text-title">Kwallah</div>
-            <div class="brand-text-sub">JKSSB FA · Topic-wise Question Bank</div>
-          </div>
-        </a>
-      </div>
-      <div class="header-right">
-        <div class="pill">Step 4 · Practice MCQs</div>
-        <div class="theme-switcher">
-          <label for="theme-select">Theme</label>
-          <select id="theme-select">
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-            <option value="kashmir">Kashmir Green</option>
-          </select>
+        <div class="brand-logo">KW</div>
+        <div class="brand-text">
+          <div class="brand-name">Kwallah</div>
+          <div class="brand-tagline">JK exams • Practice better</div>
         </div>
+      </div>
+
+      <nav class="top-nav">
+        <a href="index.html#exams-section" class="nav-link">Exams</a>
+        <a href="index.html#tests-section" class="nav-link nav-disabled">Tests</a>
+        <a href="index.html#notes-section" class="nav-link nav-disabled">Notes</a>
+        <a href="index.html#contact-section" class="nav-link nav-disabled">Contact</a>
+      </nav>
+
+      <div class="site-controls">
+        <input
+          type="text"
+          class="nav-search"
+          placeholder="Search exams (coming soon)"
+          disabled
+        />
+        <label class="theme-label">
+          Theme
+          <select id="theme-select">
+            <option value="kashmir">Kashmir Green</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+          </select>
+        </label>
       </div>
     </header>
 
-    <main>
-      <nav class="breadcrumbs">
-        <a href="index.html">Home</a>
-        <span>›</span>
-        <a href="subjects.html?exam=jkssb_fa">JKSSB FA</a>
-        <span>›</span>
-        <span id="bc-subject">Section</span>
-        <span>›</span>
-        <span id="bc-topic">Topic</span>
-      </nav>
+    <!-- MAIN MCQ AREA -->
+    <main class="mcq-page">
+      <!-- Compact header for this topic -->
+      <div class="mcq-header">
+        <div class="mcq-breadcrumb" id="topic-breadcrumb">
+          JKSSB FA · Topic-wise Question Bank
+        </div>
 
-      <section class="card">
-        <div class="card-inner">
-          <div id="topic-title" class="card-title">Topic</div>
-          <p id="topic-notes" style="font-size:.86rem; opacity:.9;">
-            Loading topic notes…
-          </p>
-          <div class="search-row">
-            <input id="search-input" class="search-input" placeholder="Search within this topic's questions (e.g. 'journal entry', 'asset', 'inflation')">
-            <div class="search-badge">Type to filter MCQs instantly</div>
+        <div class="mcq-header-top">
+          <div>
+            <h1 id="topic-title">Basic Accounting Terms</h1>
+            <p class="mcq-subline" id="topic-description">
+              Complete real MCQ bank for this topic in JKSSB Finance Accounts Assistant.
+            </p>
+          </div>
+          <div class="mcq-step-label">
+            Step 4 · Practice MCQs
           </div>
         </div>
-      </section>
 
-      <section>
-        <div id="qa-container" class="qa-container">
-          <div class="q-card">Loading questions…</div>
+        <div class="mcq-header-row">
+          <div class="mcq-header-left">
+            <label class="sr-only" for="topic-search">Search within this topic</label>
+            <input
+              id="topic-search"
+              type="text"
+              placeholder="Search within this topic's questions…"
+            />
+            <small class="mcq-hint">Type to filter MCQs instantly</small>
+          </div>
+
+          <div class="topic-stats" id="topic-stats">
+            <span class="badge-correct">
+              Correct: <span id="correct-count">0</span>
+            </span>
+            <span class="badge-wrong">
+              Wrong: <span id="wrong-count">0</span>
+            </span>
+            <button class="stats-reset-btn" id="reset-topic">Reattempt</button>
+          </div>
         </div>
-      </section>
+      </div>
 
-      <div class="footer-note">
-        Click on an option to check yourself. Correct option turns <strong>green</strong>, wrong attempt turns <strong>red</strong>. You can try again as many times as you like – this is pure practice mode. Later we can add timed mock tests using this same structure.
+      <!-- Question list: JS fills all .q-card here -->
+      <div class="mcq-list" id="question-list">
+        <!-- app.js will render question cards into this container -->
       </div>
     </main>
   </div>
+
   <script src="assets/app.js"></script>
 </body>
 </html>
