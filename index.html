@@ -1,69 +1,53 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <title>Kwallah · JKSSB Finance Accounts Assistant</title>
+  <meta charset="UTF-8" />
+  <title>Kwallah | JKSSB Finance Accounts Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
-<body data-page="home" class="theme-kashmir">
-  <div class="app-shell">
-    <header class="app-header">
+<body class="theme-kashmir" data-page="home">
+  <div id="app-root" class="main-shell">
+
+    <!-- Top bar: logo + tagline + theme -->
+    <header class="site-header">
       <div class="brand">
         <div class="brand-logo">KW</div>
         <div class="brand-text">
-          <div class="brand-text-title">Kwallah</div>
-          <div class="brand-text-sub">One Point Solution · JKSSB Finance Accounts Assistant</div>
+          <div class="brand-name">Kwallah</div>
+          <div class="brand-tagline">One place for JKSSB & JKPSC practice</div>
         </div>
       </div>
-      <div class="header-right">
-        <div class="pill">Syllabus → Topics → MCQ Bank</div>
-        <div class="theme-switcher">
-          <label for="theme-select">Theme</label>
+
+      <div class="site-controls">
+        <label class="theme-label">
+          Theme
           <select id="theme-select">
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
             <option value="kashmir">Kashmir Green</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
           </select>
-        </div>
+        </label>
       </div>
     </header>
 
+    <!-- Hero section -->
     <main>
-      <section class="card">
-        <div class="card-inner">
-          <div class="card-title">JKSSB Finance Accounts Assistant – 120 Marks</div>
-          <p style="font-size:.86rem; opacity:.9;">
-            Single OMR paper · 120 questions · 120 marks · 2 hours · 0.25 negative marking. All sections mapped exactly as per syllabus.
-          </p>
-          <div class="chip-row">
-            <span class="chip">GK (J&K + India & World) – 30</span>
-            <span class="chip">Accountancy & Book Keeping – 30</span>
-            <span class="chip">English · Maths · Stats · Economics · Science · Computers – 10 each</span>
-          </div>
-          <div class="table-wrapper" style="margin-top:.8rem;">
-            <table class="table">
-              <thead>
-                <tr><th>Section</th><th>Marks</th></tr>
-              </thead>
-              <tbody id="marks-tbody">
-                <tr><td>Loading…</td><td>–</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
+      <section class="exam-hero">
+        <h1>JKSSB Finance Accounts Assistant</h1>
+        <p>120 Marks · 2 Hours · OMR · Negative Marking</p>
+        <p class="exam-hero-sub">
+          Start from syllabus → section wise topics → full MCQ banks. Mock tests coming soon.
+        </p>
       </section>
 
-      <section>
-        <div class="grid" id="exam-grid"></div>
+      <!-- Exam tiles (right now single exam, more can be added later) -->
+      <section class="exam-grid-section">
+        <div id="exam-grid"></div>
       </section>
-
-      <div class="footer-note">
-        Step 1: Click on the <strong>Accounts Assistant exam tile</strong> → Step 2: Pick a section → Step 3: Pick a topic → Step 4: Practice MCQs. Right now all questions are <strong>placeholders</strong> so that you can later paste your real question bank.
-      </div>
     </main>
   </div>
+
   <script src="assets/app.js"></script>
 </body>
 </html>
