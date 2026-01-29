@@ -9,17 +9,33 @@
 <body class="theme-kashmir" data-page="home">
   <div id="app-root" class="main-shell">
 
-    <!-- Top bar: logo + tagline + theme -->
+    <!-- Top bar: logo + nav + theme + search -->
     <header class="site-header">
+      <!-- Brand -->
       <div class="brand">
         <div class="brand-logo">KW</div>
         <div class="brand-text">
           <div class="brand-name">Kwallah</div>
-          <div class="brand-tagline">One place for JKSSB & JKPSC practice</div>
+          <div class="brand-tagline">JK exams • Practice better</div>
         </div>
       </div>
 
+      <!-- Navigation -->
+      <nav class="top-nav">
+        <a href="#exams-section" class="nav-link">Exams</a>
+        <a href="#tests-section" class="nav-link nav-disabled">Tests</a>
+        <a href="#notes-section" class="nav-link nav-disabled">Notes</a>
+        <a href="#contact-section" class="nav-link nav-disabled">Contact</a>
+      </nav>
+
+      <!-- Theme + search -->
       <div class="site-controls">
+        <input
+          type="text"
+          class="nav-search"
+          placeholder="Search exams (coming soon)"
+          disabled
+        />
         <label class="theme-label">
           Theme
           <select id="theme-select">
@@ -34,16 +50,33 @@
     <!-- Hero section -->
     <main>
       <section class="exam-hero">
-        <h1>JKSSB Finance Accounts Assistant</h1>
-        <p>120 Marks · 2 Hours · OMR · Negative Marking</p>
+        <h1>JKSSB Finance Accounts Assistant MCQs</h1>
+        <p>120 marks · 2 hours · OMR · as per official syllabus</p>
         <p class="exam-hero-sub">
-          Start from syllabus → section wise topics → full MCQ banks. Mock tests coming soon.
+          Section-wise topic MCQs for JKSSB Finance Accounts Assistant.
         </p>
       </section>
 
-      <!-- Exam tiles (right now single exam, more can be added later) -->
-      <section class="exam-grid-section">
+      <!-- Exams section (tiles) -->
+      <section id="exams-section" class="exam-grid-section">
+        <h2 class="section-heading">Exams</h2>
         <div id="exam-grid"></div>
+      </section>
+
+      <!-- Future placeholders (Tests/Notes/Contact) -->
+      <section id="tests-section" class="section-placeholder">
+        <h2 class="section-heading">Tests</h2>
+        <p>Full-length mock tests coming soon.</p>
+      </section>
+
+      <section id="notes-section" class="section-placeholder">
+        <h2 class="section-heading">Notes</h2>
+        <p>Concise notes for JKSSB exams coming soon.</p>
+      </section>
+
+      <section id="contact-section" class="section-placeholder">
+        <h2 class="section-heading">Contact</h2>
+        <p>For feedback & support: feature coming soon.</p>
       </section>
     </main>
   </div>
